@@ -15,6 +15,7 @@ body {
 .nav {
   background-color: black;
   color: #fff;
+  width: 100%;
   -webkit-box-shadow: 0 1px 3px #666;
           box-shadow: 0 1px 3px #666;
 }
@@ -128,7 +129,7 @@ body {
   left: 0;
   bottom: 0;
   width: 320px;
-  max-width: 90%;
+  max-width: 100%;
   background-color: #fff;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -226,8 +227,8 @@ body {
   .nav__pc {
     display: none;
   }
-  .nav-mobile {
-    width: 100vh;
+  .nav {
+    width: 100%;
   }
 }
 
@@ -331,11 +332,13 @@ body {
             flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    max-width: 324px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 319px;
   }
   .main__button-2 {
-    position: absolute;
-    margin-left: 150px;
+    display: block;
+    margin-right: 70px;
   }
 }
 

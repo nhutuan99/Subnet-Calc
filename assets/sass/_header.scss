@@ -2,6 +2,7 @@
 .nav{
         background-color: rgb(0, 0, 0);
         color: #fff;
+        width: 100%;
         box-shadow: 0 1px 3px #666;
         .nav__logo{
             margin-left: 150px;
@@ -78,7 +79,7 @@
     left: 0;
     bottom: 0;
     width: 320px;
-    max-width: 90%;
+    max-width: 100%;
     background-color: #fff;
     transform: translateX(-100%);
     opacity: 0;
@@ -159,7 +160,9 @@
     .nav__pc{
         display: none;
     }
-    .nav-mobile{
-        width: 100vh;
+    
+    .nav{
+        width: 100%;
     }
 }
+
