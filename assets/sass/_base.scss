@@ -1,0 +1,16 @@
+.btn{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: 1px;
+    border-radius: 50px;
+    box-shadow: 0 1px 3px #666;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    margin: 6px 20px;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: $fontColor;
+}

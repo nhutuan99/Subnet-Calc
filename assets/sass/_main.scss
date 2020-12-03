@@ -1,0 +1,56 @@
+.body__calc{
+    width: 700px;
+    max-width: 1200px;
+    background-color: rgb(0, 0, 0);
+    color: $fontColor;
+    font-size: 1.2rem;
+    font-weight: 450;
+    box-shadow: 2px 2px 5px #ccc;
+    border-radius: 50px;
+    padding: 20px 20px;
+    margin: 10px auto;
+    flex-direction: column;
+    @include align(space-between,center);
+    .main__item{
+        padding: 0 20px;
+    }
+    input{
+        font-weight: 800;
+    }
+    .main__intro{
+        color: $fontColor;
+        font-size: 1.8rem;
+        font-weight: 800;
+        text-shadow: 0 1px 2px rgb(255, 255, 255);
+        cursor: pointer;
+        margin: auto;
+        @include align(center,center);
+    }
+    .main__button{
+        margin: 20px auto;
+        @include align(space-around,center);
+        .main__button-1{
+            margin-right: 100px;
+        }
+        .main__button-iconplus{
+            text-decoration: none;
+            font-size: larger;
+            font-weight: bolder;
+            color: $fontColor;
+        }
+    }    
+}
+
+@media (max-width: 1023px)
+{
+    .body__calc{
+        @include align(space-between,center);
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 324px;
+    }
+    .main__button-2{
+        position: absolute;
+        margin-left: 150px;
+    }
+}

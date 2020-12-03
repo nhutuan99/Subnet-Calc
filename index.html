@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/png" href="http://nvtue.info/assets/img/logoLeft.png">
+    <link rel="stylesheet" href="./assets/sass/style.css">
+    <title>Subnet Tool Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <header class="nav">
+            
+            <nav class="nav__pc">
+                   
+                    <ul class="nav__list">
+                        <div class="nav__logo">
+                            <a href="/">
+                                <!-- <img id="logo" src="http://nvtue.info/assets/img/logoLeft.png" alt="logo"> -->
+                                <img src="http://nvtue.info/assets/img/logoRight.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="nav__list-link">
+                            <li>
+                                <a class="nav__list-link-item" href="#intro" class="nav__link">Intro</a>
+                            </li>
+                            <li>
+                                <a class="nav__list-link-item" href="#about" class="nav__link">About</a>
+                            </li>
+                            <li>
+                                <a class="nav__list-link-item" href="#contact" class="nav__link">Contact</a>
+                            </li>
+                        </div>
+                    </ul>
+
+            </nav>
+
+            <label for="nav__mobile-input" class="nav__bars-btn">
+                <i class="bx bx-menu-alt-left"></i>
+            </label>
+
+                <input type="checkbox" name="" class="nav__input" id="nav__mobile-input">
+                
+                <label for="nav__mobile-input" class="nav__overlay"></label>
+            
+            <nav class="nav__mobile">
+                   
+                <ul class="nav__mobile-list">
+                    <label for="nav__mobile-input" class="nav__mobile-close">
+                        <i class="bx bx-x"></i>
+                    </label>
+                    <div class="nav__mobile-logo">
+                        <a href="/">
+                            <!-- <img id="logo" src="http://nvtue.info/assets/img/logoLeft.png" alt="logo"> -->
+                            <img src="http://nvtue.info/assets/img/logoRight.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="nav__mobile-list-link">
+                        <li>
+                            <a class="nav__mobile-list-link-item" href="#intro" class="nav__mobile-link">Intro</a>
+                        </li>
+                        <li>
+                            <a class="nav__mobile-list-link-item" href="#about" class="nav__mobile-link">About</a>
+                        </li>
+                        <li>
+                            <a class="nav__mobile-list-link-item" href="#contact" class="nav__mobile-link">Contact</a>
+                        </li>
+                    </div>
+                </ul>
+
+        </nav>
+        </header>
+
+        <div class="menu-advice"></div>
+        
+        <div class="body__calc">
+
+            <span class="main__intro">Subnet Calculator</span>
+        
+            <div class="main__list">
+                    <div class="main__item">
+                        <label for="input-ID">ID</label>
+                        <input name="input-ID" id="input-ID" type="text" class="input-ID">
+                    </div>
+                    <div class="main__item">
+                        <label for="input-NET">NET</label>
+                        <input name="input-NET" id="input-NET" type="text" class="input-NET">
+                    </div>
+                    <div class="main__item">
+                        <label for="input-HOST">HOST</label>
+                        <input name="input-HOST" id="input-HOST" type="text" class="input-HOST">
+                    </div>
+            </div>
+            <div class="main__button">
+                        <div class="main__button-1">
+                            <button class="btn">IP Infor</button>
+                            <button class="btn">Subneting</button>
+                        </div>
+                        <div class="main__button-2">
+                            <a class="main__button-iconplus" href="">
+                                <i class="bx bx-plus-circle"></i>
+                            </a>
+                        </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
