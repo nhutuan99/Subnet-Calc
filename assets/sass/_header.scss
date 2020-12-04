@@ -160,9 +160,21 @@
     .nav__pc{
         display: none;
     }
-    
+    .nav{
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 321px)
+{
     .nav{
         width: 100%;
     }
+    .nav__mobile{
+        max-width: 80%;
+    }
 }
+
 

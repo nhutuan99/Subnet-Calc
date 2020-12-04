@@ -100,12 +100,36 @@
                             <button class="btn">Subneting</button>
                         </div>
                         <div class="main__button-2">
-                            <a class="main__button-iconplus" href="">
-                                <i class="bx bx-plus-circle"></i>
+                            <a onclick="myFunction()" class="main__button-iconplus">
+                                <i class="bx bx-plus-circle dropbtn"></i>
                             </a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">NET</a>
+                                <a href="#">HOST</a>
+                            </div>
                         </div>
             </div>
         </div>
     </div>
+
+
+    <script>
+        function myFunction(){
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')){
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0 ; i < dropdowns.length; i++)
+                {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')){
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }   
+        }
+    </script>
 </body>
 </html>
