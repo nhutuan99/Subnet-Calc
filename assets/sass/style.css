@@ -369,6 +369,7 @@ body {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  border-bottom: 1px solid #999;
 }
 
 .body__calc .main__button .dropdown-content a:hover {
